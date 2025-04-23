@@ -8,18 +8,18 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #444;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background: linear-gradient(to right, #ece9e6, #ffffff);
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
 }
 
 header {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background: linear-gradient(135deg, #1a237e, #3949ab);
+  background: linear-gradient(135deg, #ff6f61, #ff8a65);
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -44,7 +44,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: #fff5f5;
   padding: 25px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@ section h3 {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid #ddd;
-  color: #3949ab;
+  color: #ff6f61;
   font-size: 1.5rem;
 }
 
@@ -71,7 +71,7 @@ section h3 {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #ffe6e6;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -83,7 +83,7 @@ section h3 {
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #0066cc;
+  color: #ff7043;
   font-size: 1.2rem;
 }
 
@@ -112,7 +112,7 @@ section h3 {
 }
 
 button {
-  background: linear-gradient(135deg, #1a237e, #3949ab);
+  background: linear-gradient(135deg, #ff6f61, #ff8a65);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -123,7 +123,7 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(135deg, #3949ab, #5c6bc0);
+  background: linear-gradient(135deg, #ff8a65, #ffab91);
   transform: translateY(-2px);
 }
 
@@ -159,9 +159,9 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
-  color: #666;
+  color: #555;
   font-size: 0.9rem;
-  background-color: #f5f5f5;
+  background-color: #ffe6e6;
   border-top: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
